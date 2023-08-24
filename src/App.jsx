@@ -1,5 +1,6 @@
 import './App.css'
 import { Routes, Route } from "react-router-dom";
+import {useState, useEffect} from "react"
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -9,24 +10,30 @@ import ProductDetail from "./pages/ProductDetail";
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [cart, setCart] = useState([])
+
+  const updateCart = (product ) => {
+
+    const newCart = [...cart, product]
+
+    setCart(newCart)
+};
 
   return (
     <div className="App">
       <Header />
       <Routes>
-        {/* <Route  path="/" element={ <HomePage /> } /> */}
 
-        <Route path="/" element={<ProductPage />} />
+        <Route path="/" element={<ProductPage updateCart={updateCart}/>} />
 
         <Route
           path="/products/:id"
-          element={<ProductDetail />}
+          element={<ProductDetail updateCart={updateCart}/>}
         />
 
         <Route
             path="/cart"
-            element={<Cart />}
+            element={<Cart cart={cart}/>}
         />
 
         <Route path="*" element />
