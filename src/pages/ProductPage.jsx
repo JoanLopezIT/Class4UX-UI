@@ -7,16 +7,16 @@ function ProductPage() {
     const [products, setProducts] = useState(productJson);
   
     return (
-      <div>
+      <>
         <h1>Projects</h1>
         {products.map((product) => {
           return (
-            <div key={product._id} className="project">
+            <div key={product.id} className="project">
               <Link to={`/products/${product.id}`}> <div> <Card product={product} /> </div></Link>
             </div>
           );
         })}
-      </div>
+      </>
     );
 }
 

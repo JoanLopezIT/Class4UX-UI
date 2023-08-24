@@ -38,6 +38,11 @@ background-color: bisque;
 margin-bottom: 2vw;
 }
 
+.card-detail {
+  background-color: bisque;
+  margin-bottom: 2vw;
+  }
+
 .read-the-docs {
   color: #888;
 }
