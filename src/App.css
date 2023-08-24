@@ -34,7 +34,8 @@
 }
 
 .card {
-  padding: 2em;
+background-color: bisque;
+margin-bottom: 2vw;
 }
 
 .read-the-docs {
