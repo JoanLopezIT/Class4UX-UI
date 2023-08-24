@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "TechNova X1",
-    "image": "https://example.com/technovax1.jpg",
+    "image": "./../public/phone1.png",
     "description": "Experience the future with the cutting-edge TechNova X1 smartphone."
   },
   {
     "id": 2,
     "name": "PixelPro 12",
-    "image": "https://example.com/pixelpro12.jpg",
+    "image": "./../public/phone2.png",
     "description": "Capture life's moments in stunning detail with the PixelPro 12's advanced camera system."
   },
   {
     "id": 3,
     "name": "GalaxyFusion Z",
-    "image": "https://example.com/galaxyfusionz.jpg",
+    "image": "./../public/phone3.png",
     "description": "Unleash your potential with the GalaxyFusion Z's seamless performance and immersive display."
   },
   {
     "id": 4,
     "name": "AuraWave M7",
-    "image": "https://example.com/aurawavem7.jpg",
+    "image": "./../public/phone4.png",
     "description": "Immerse yourself in entertainment like never before with the AuraWave M7's vibrant screen."
   },
   {
     "id": 5,
     "name": "NexaTech 9X",
-    "image": "https://example.com/nexatech9x.jpg",
+    "image": "./../public/phone5.png",
     "description": "Stay ahead of the curve with the lightning-fast NexaTech 9X and its AI-enhanced features."
   },
   {
     "id": 6,
     "name": "EcoGreen E3",
-    "image": "https://example.com/ecogreene3.jpg",
+    "image": "./../public/phone6.png",
     "description": "Make a difference while staying connected with the environmentally conscious EcoGreen E3."
   },
   {
     "id": 7,
     "name": "Zenith Max Pro",
-    "image": "https://example.com/zenithmaxpro.jpg",
+    "image": "./../public/phone7.png",
     "description": "Maximize your productivity and creativity with the powerful Zenith Max Pro smartphone."
   },
   {
     "id": 8,
     "name": "Pioneer Evo Lite",
-    "image": "https://example.com/pioneerevolite.jpg",
+    "image": "./../public/phone8.png",
     "description": "Experience evolution in your hands with the Pioneer Evo Lite's sleek design and features."
   },
   {
     "id": 9,
     "name": "Titanium Blaze 5G",
-    "image": "https://example.com/titaniumblaze5g.jpg",
+    "image": "./../public/phone9.png",
     "description": "Ignite the 5G revolution with the Titanium Blaze 5G's rapid connectivity and performance."
   },
   {
     "id": 10,
     "name": "MotoPulse E",
-    "image": "https://example.com/motopulsee.jpg",
+    "image": "./../public/phone10.png",
     "description": "Feel the pulse of technology with the MotoPulse E's innovative features and style."
   },
   {
     "id": 11,
     "name": "LumiX Nova",
-    "image": "https://example.com/lumixnova.jpg",
+    "image": "./../public/phone11.png",
     "description": "Illuminate your mobile experience with the LumiX Nova's stunning display and camera setup."
   },
   {
     "id": 12,
     "name": "SonicWave S1",
-    "image": "https://example.com/sonicwaves1.jpg",
+    "image": "./../public/phone12.png",
     "description": "Ride the waves of innovation with the SonicWave S1, delivering sound and performance in harmony."
   }
 ]
