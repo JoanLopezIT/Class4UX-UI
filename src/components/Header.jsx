@@ -1,12 +1,19 @@
+import { Link } from "react-router-dom";
+
 function Header() {
     return (
         <header>
-            <img src="./logo.png" alt="Logo"/>
-                <form>
-                    <input type="text" placeholder="Buscar..."/>
-                </form>
-            <img src="./cart.png" alt="Card" />
+            <Link to="/">
+                <img src="./logo.png" alt="Logo"/>
+            </Link>
+            <form>
+                <input type="text" placeholder="Buscar..."/>
+            </form>
+            <Link to="/cart">
+                <img src="./cart.png" alt="Cart" />
+            </Link>
             <img src="./user.svg" alt="User" />
+
         </header>
     )
 }
