@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ProductPage from './pages/ProductPage';
 import Cart from "./pages/Cart" ;
-import ProductDetail from './pages/ProductDetail';
+import ProductDetail from "./pages/ProductDetail";
 
 
 function App() {
