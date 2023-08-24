@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import productJson from "../data.json";
 import Card from "../components/Card";
 
-function ProductPage() {
+function ProductPage(props) {
     const [products, setProducts] = useState(productJson);
   
     return (
@@ -12,7 +12,7 @@ function ProductPage() {
         {products.map((product) => {
           return (
             <div key={product.id} className="project">
-              <Link to={`/products/${product.id}`}> <div> <Card product={product} /> </div></Link>
+              <Link to={`/products/${product.id}`}> <div> <Card product={product} updateCart={props.updateCart} /> </div></Link>
             </div>
           );
         })}
