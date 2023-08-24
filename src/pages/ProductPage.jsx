@@ -1,3 +1,4 @@
+import "./ProductPage.css"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import productJson from "../data.json";
@@ -7,16 +8,15 @@ function ProductPage(props) {
     const [products, setProducts] = useState(productJson);
   
     return (
-      <>
-        <h1>Projects</h1>
+      <div className="allProducts">
         {products.map((product) => {
           return (
-            <div key={product.id} className="project">
-              <Link to={`/products/${product.id}`}> <div> <Card product={product} updateCart={props.updateCart} /> </div></Link>
-            </div>
+              <div className="product">
+                 <Link to={`/products/${product.id}`}> <Card product={product} updateCart={props.updateCart} /> </Link>
+                </div>
           );
         })}
-      </>
+      </div>
     );
 }
 

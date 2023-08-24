@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+img{
+    width: 30px;
+    padding-right: 25px;
+}
+
+#logo {
+    width: 150px;
+}
+
+input {
+    width: 350px;
+}
