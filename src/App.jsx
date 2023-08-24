@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Routes>
 
-        <Route path="/" element={<ProductPage updateCart={updateCart}/>} />
+        <Route path="/" element={<ProductPage />} />
 
         <Route
           path="/products/:id"
