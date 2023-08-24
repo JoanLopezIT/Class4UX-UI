@@ -1,19 +1,6 @@
-function Cart() {
+function Cart(prop) {
 
-    const arrayMobile=[
-        {
-            "id": 1,
-            "name": "TechNova X1",
-            "image": "https://example.com/technovax1.jpg",
-            "description": "Experience the future with the cutting-edge TechNova X1 smartphone."
-          },
-          {
-            "id": 2,
-            "name": "PixelPro 12",
-            "image": "https://example.com/pixelpro12.jpg",
-            "description": "Capture life's moments in stunning detail with the PixelPro 12's advanced camera system."
-          }
-    ]
+    const arrayMobile = prop.cart;
 
     return(
         
