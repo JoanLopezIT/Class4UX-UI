@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import productJson from "./../data.json";
-
+import productJson from "../data.json";
+import Card from "../components/Card";
 
 function ProductPage() {
     const [products, setProducts] = useState(productJson);
@@ -12,7 +12,7 @@ function ProductPage() {
         {products.map((product) => {
           return (
             <div key={product._id} className="project">
-              <Link to={`/products/${product._id}`}> <h3>{product.name}</h3></Link>
+              <Link to={`/products/${product.id}`}> <div> <Card product={product} /> </div></Link>
             </div>
           );
         })}
