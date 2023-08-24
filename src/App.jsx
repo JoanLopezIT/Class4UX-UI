@@ -19,7 +19,7 @@ function App() {
         />
 
         <Route
-          path="/projects/:id"
+          path="/products/:id"
           element
         />
 
