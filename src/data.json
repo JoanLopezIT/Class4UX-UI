@@ -3,72 +3,84 @@
     "id": 1,
     "name": "TechNova X1",
     "image": "./../public/phone1.png",
-    "description": "Experience the future with the cutting-edge TechNova X1 smartphone."
+    "description": "Experience the future with the cutting-edge TechNova X1 smartphone.",
+    "price": 199.95
   },
   {
     "id": 2,
     "name": "PixelPro 12",
     "image": "./../public/phone2.png",
-    "description": "Capture life's moments in stunning detail with the PixelPro 12's advanced camera system."
+    "description": "Capture life's moments in stunning detail with the PixelPro 12's advanced camera system.",
+    "price": 399.85
   },
   {
     "id": 3,
     "name": "GalaxyFusion Z",
     "image": "./../public/phone3.png",
-    "description": "Unleash your potential with the GalaxyFusion Z's seamless performance and immersive display."
+    "description": "Unleash your potential with the GalaxyFusion Z's seamless performance and immersive display.",
+    "price": 459.85
   },
   {
     "id": 4,
     "name": "AuraWave M7",
     "image": "./../public/phone4.png",
-    "description": "Immerse yourself in entertainment like never before with the AuraWave M7's vibrant screen."
+    "description": "Immerse yourself in entertainment like never before with the AuraWave M7's vibrant screen.",
+    "price": 1099.85
   },
   {
     "id": 5,
     "name": "NexaTech 9X",
     "image": "./../public/phone5.png",
-    "description": "Stay ahead of the curve with the lightning-fast NexaTech 9X and its AI-enhanced features."
+    "description": "Stay ahead of the curve with the lightning-fast NexaTech 9X and its AI-enhanced features.",
+    "price": 2299.85
   },
   {
     "id": 6,
     "name": "EcoGreen E3",
     "image": "./../public/phone6.png",
-    "description": "Make a difference while staying connected with the environmentally conscious EcoGreen E3."
+    "description": "Make a difference while staying connected with the environmentally conscious EcoGreen E3.",
+    "price": 899.85
   },
   {
     "id": 7,
     "name": "Zenith Max Pro",
     "image": "./../public/phone7.png",
-    "description": "Maximize your productivity and creativity with the powerful Zenith Max Pro smartphone."
+    "description": "Maximize your productivity and creativity with the powerful Zenith Max Pro smartphone.",
+    "price": 199
   },
   {
     "id": 8,
     "name": "Pioneer Evo Lite",
     "image": "./../public/phone8.png",
-    "description": "Experience evolution in your hands with the Pioneer Evo Lite's sleek design and features."
+    "description": "Experience evolution in your hands with the Pioneer Evo Lite's sleek design and features.",
+    "price": 656.95
   },
   {
     "id": 9,
     "name": "Titanium Blaze 5G",
     "image": "./../public/phone9.png",
-    "description": "Ignite the 5G revolution with the Titanium Blaze 5G's rapid connectivity and performance."
+    "description": "Ignite the 5G revolution with the Titanium Blaze 5G's rapid connectivity and performance.",
+    "price": 229.85
   },
   {
     "id": 10,
     "name": "MotoPulse E",
     "image": "./../public/phone10.png",
-    "description": "Feel the pulse of technology with the MotoPulse E's innovative features and style."
+    "description": "Feel the pulse of technology with the MotoPulse E's innovative features and style.",
+    "price": 349.85
   },
   {
     "id": 11,
     "name": "LumiX Nova",
     "image": "./../public/phone11.png",
-    "description": "Illuminate your mobile experience with the LumiX Nova's stunning display and camera setup."
+    "description": "Illuminate your mobile experience with the LumiX Nova's stunning display and camera setup.",
+    "price": 133.85
   },
   {
     "id": 12,
     "name": "SonicWave S1",
     "image": "./../public/phone12.png",
-    "description": "Ride the waves of innovation with the SonicWave S1, delivering sound and performance in harmony."
+    "description": "Ride the waves of innovation with the SonicWave S1, delivering sound and performance in harmony.",
+    "price": 299.85
   }
 ]

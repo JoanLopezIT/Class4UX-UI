@@ -20,6 +20,7 @@ function ProductDetail(props) {
             <div className='desc'>
                 <p>{product.name}</p>
                 <p>Description: {product.description}</p>
+                <p><b>{product.price} $</b></p>
                 <div className="btn-group">
                     <button onClick={() => handleCard()}>Add Cart</button>
                     <Link to={`/cart`}><button onClick={() => handleCard()}>Buy</button></Link>

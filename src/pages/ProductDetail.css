@@ -21,4 +21,6 @@
 
 .card-detail button {
     width: 150px;
+    color: white;
+    background-color: black;
 }

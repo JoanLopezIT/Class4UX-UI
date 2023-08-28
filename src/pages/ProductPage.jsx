@@ -11,7 +11,7 @@ function ProductPage(props) {
       <div className="allProducts">
         {products.map((product) => {
           return (
-              <div className="product">
+              <div className="product" key={product.id}>
                  <Link to={`/products/${product.id}`}> <Card product={product} /> </Link>
                 </div>
           );
